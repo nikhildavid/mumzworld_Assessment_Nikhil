@@ -21,13 +21,13 @@ public class ExtentManager {
 			sparkReporter = new ExtentSparkReporter(reportPath);
 			sparkReporter.config().setTheme(Theme.STANDARD);
 			sparkReporter.config().setDocumentTitle("Automation Report");
-			sparkReporter.config().setReportName("mumzworld - Automation Test Report");
+			sparkReporter.config().setReportName("Mumzworld - Automation Test Report");
 
 			extent = new ExtentReports();
 			extent.attachReporter(sparkReporter);
 			extent.setSystemInfo("Application", "mumzworld");
 			extent.setSystemInfo("Environment", "Prod");
-			extent.setSystemInfo("Tester", "Nikhil"); // revisit
+			extent.setSystemInfo("Tester", "Nikhil"); 
 		}
 		return extent;
 	}

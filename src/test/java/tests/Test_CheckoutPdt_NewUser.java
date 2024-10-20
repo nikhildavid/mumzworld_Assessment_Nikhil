@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class Test_CheckoutPdt_NewUser extends BaseTest {
 
-	@Test(description = "Validate product checkout for new user", dataProvider = "getData")
+	@Test(description = "Order journey for new customer", dataProvider = "getData")
 	public void validateProductCheckoutForNewUser(HashMap<String, String> input) throws InterruptedException {
 		page.getWShomepage().searchProduct(input.get("searchkey"));
 		page.getSearchResultsPage().addProductToCart(input.get("productName"));

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-20T13:52:18 GST" name="Automation Suite" finished-at="2024-10-20T13:52:50 GST" duration-ms="31871">
+  <suite started-at="2024-10-20T14:17:56 GST" name="Automation Suite" finished-at="2024-10-20T14:18:31 GST" duration-ms="34977">
     <groups>
     </groups>
-    <test started-at="2024-10-20T13:52:18 GST" name="Login Tests" finished-at="2024-10-20T13:52:50 GST" duration-ms="31871">
+    <test started-at="2024-10-20T14:17:56 GST" name="Login Tests" finished-at="2024-10-20T14:18:31 GST" duration-ms="34977">
       <class name="tests.Test_CheckoutPdt_NewUser">
-        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T13:52:18 GST" name="setupExtentReports" finished-at="2024-10-20T13:52:18 GST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T14:17:56 GST" name="setupExtentReports" finished-at="2024-10-20T14:17:56 GST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtentReports -->
-        <test-method is-config="true" signature="intialiseBrowser()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T13:52:18 GST" name="intialiseBrowser" finished-at="2024-10-20T13:52:29 GST" duration-ms="10567" status="PASS">
+        <test-method is-config="true" signature="intialiseBrowser()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T14:17:56 GST" name="intialiseBrowser" finished-at="2024-10-20T14:18:10 GST" duration-ms="13479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialiseBrowser -->
-        <test-method signature="validateProductCheckoutForNewUser(java.util.HashMap)[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T13:52:29 GST" name="validateProductCheckoutForNewUser" description="Validate product checkout for new user" data-provider="getData" finished-at="2024-10-20T13:52:50 GST" duration-ms="20968" status="PASS">
+        <test-method signature="validateProductCheckoutForNewUser(java.util.HashMap)[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T14:18:10 GST" name="validateProductCheckoutForNewUser" description="Order journey for new customer" data-provider="getData" finished-at="2024-10-20T14:18:31 GST" duration-ms="21138" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProductCheckoutForNewUser -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T13:52:50 GST" name="tearDownBrowser" finished-at="2024-10-20T13:52:50 GST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T14:18:31 GST" name="tearDownBrowser" finished-at="2024-10-20T14:18:31 GST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T13:52:50 GST" name="tearDownExtentReports" finished-at="2024-10-20T13:52:50 GST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:tests.Test_CheckoutPdt_NewUser@131ef10]" started-at="2024-10-20T14:18:32 GST" name="tearDownExtentReports" finished-at="2024-10-20T14:18:32 GST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->
